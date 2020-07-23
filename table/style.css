@@ -1,0 +1,117 @@
+body {
+    background-color: #858585;
+}
+table {
+    width: 100%;
+    letter-spacing: 1px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th {
+    text-transform: uppercase; 
+    background-color: #333333;
+    padding: 10px;
+}
+.mon {
+    border-top-left-radius: 10px;
+}
+.sun {
+    border-top-right-radius: 10px;
+}
+th, td {
+    width: 12%;
+}
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+.number {
+    display: block;
+    margin-bottom: 10px;
+}
+.calendar {
+    height: 150px;
+    background-color: #515151;
+}
+.singl-day {
+    
+    background-color: #ff9999;
+    border-radius: 10px;
+    text-align: center;
+}
+.event-start {
+    background-color: #85d6ff;
+    margin-right: -15px;
+}
+.event-middle {
+    background-color: #85d6ff;
+    margin-right: -20px;
+    margin-left: -20px;
+    text-align: center;
+}
+.event-end {
+    background-color: #85d6ff;
+    margin-left: -20px;
+}
+.event {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 18px;
+    color: #4c4c4c;
+    border-radius: 10px;
+}
+.event-two-start {
+    background-color: #7df179;
+    margin-right: -15px;
+}
+.event-two-middle {
+    background-color: #7df179;
+    margin-right: -20px;
+    margin-left: -20px;
+    text-align: right;
+}
+.event-two-end {
+    background-color: #7df179;
+    margin-left: -20px;
+}
+.wed-event {
+    background-color: #d3a9f5;
+    border-radius: 10px;
+    text-align: center;
+}
+.event-wed {
+    background-color: #ff9999;
+    border-radius: 10px;
+    text-align: center;
+}
+.shop-start {
+    background-color: #7df179;
+    margin-right: -15px;
+    text-align: right;
+}
+.shop-end {
+    background-color: #7df179;
+    margin-left: -20px;
+    text-align: left;
+    padding-left: 12px;
+}
+.vacat-start {
+    background-color: #d3a9f5;
+    margin-right: -15px;
+    text-align: right;
+    padding-right: 3px;
+}
+.sat {
+    background-color: #85d6ff;
+    border-radius: 10px;
+    text-align: center;
+}
+.vacat-end {
+    background-color: #d3a9f5;
+    margin-left: -20px;
+    text-align: left;
+    padding-left: 10px;
+}
