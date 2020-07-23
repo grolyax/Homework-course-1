@@ -96,13 +96,11 @@ td {
     background-color: #7df179;
     margin-left: -20px;
     text-align: left;
-    padding-left: 12px;
 }
 .vacat-start {
     background-color: #d3a9f5;
     margin-right: -60px;
     text-align: right;
-    padding-right: 3px;
 }
 .sat {
     background-color: #85d6ff;
@@ -113,5 +111,4 @@ td {
     background-color: #d3a9f5;
     margin-left: -20px;
     text-align: left;
-    padding-left: 10px;
 }
