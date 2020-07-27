@@ -33,24 +33,15 @@ td {
     height: 150px;
     background-color: #515151;
 }
-.singl-day {
-    
-    background-color: #ff9999;
-    border-radius: 10px;
-    text-align: center;
-}
 .event-start {
-    background-color: #85d6ff;
-    margin-right: -15px;
+    margin-right: -40px;
 }
 .event-middle {
-    background-color: #85d6ff;
     margin-right: -20px;
     margin-left: -20px;
     text-align: center;
 }
 .event-end {
-    background-color: #85d6ff;
     margin-left: -20px;
 }
 .event {
@@ -63,52 +54,27 @@ td {
     color: #4c4c4c;
     border-radius: 10px;
 }
-.event-two-start {
-    background-color: #7df179;
-    margin-right: -15px;
-}
-.event-two-middle {
-    background-color: #7df179;
-    margin-right: -20px;
-    margin-left: -20px;
-    text-align: right;
-}
-.event-two-end {
-    background-color: #7df179;
-    margin-left: -20px;
-}
-.wed-event {
+.pink {
     background-color: #d3a9f5;
-    border-radius: 10px;
-    text-align: center;
 }
-.event-wed {
-    background-color: #ff9999;
-    border-radius: 10px;
-    text-align: center;
-}
-.shop-start {
+.green {
     background-color: #7df179;
-    margin-right: -60px;
-    text-align: right;
 }
-.shop-end {
-    background-color: #7df179;
-    margin-left: -20px;
-    text-align: left;
-}
-.vacat-start {
-    background-color: #d3a9f5;
-    margin-right: -60px;
-    text-align: right;
-}
-.sat {
+.blue {
     background-color: #85d6ff;
+}
+.red {
+    background-color: #ff9999;
+}
+.text-center {
     border-radius: 10px;
     text-align: center;
 }
-.vacat-end {
-    background-color: #d3a9f5;
+.text-start {
     margin-left: -20px;
     text-align: left;
+}
+.text-right {
+    margin-right: -60px;
+    text-align: right;
 }
