@@ -1,0 +1,31 @@
+body {
+    background-color: #c9d5d8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.block {
+    border: 2px solid black;
+    background-color: #747272;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 260px;   
+}
+
+.article {
+    background-color: white;
+    background-origin: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 6px;
+    width: 600px;
+    padding-left: 20px;
+    margin-left: 100px;
+}
+
+.article p:first-of-type {
+    font-size: large;
+}
+
+.article p:last-child {
+    font-size: small;
+    font-style: italic;
+}
