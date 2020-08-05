@@ -27,8 +27,31 @@ body {
     margin-bottom: 0;
 }
 
-.card .price {
+.card div[class^="price"] {
     font-size: 7.5rem;
+}
+
+.card .price1:before {
+    content: "$20";
+}
+
+.card .price2:before {
+    content: "$50";
+}
+
+.card .price3:before {
+    content: "100";
+    padding-left: 25px;
+}
+
+.card div[class^="price"]:before {
+    color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    z-index: 0;
+    text-shadow: none;
+    font-size: 110pt;
+    margin-left: -50px;
+    margin-top: -60px;
 }
 
 .substrate {
@@ -42,7 +65,7 @@ body {
     padding: 0;
 }
 
-.card .price .dollar {
+.card div[class^="price"] .dollar {
     font-size: 1.8rem;
 }
 
