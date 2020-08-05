@@ -41,16 +41,15 @@ body {
 
 .card .price3:before {
     content: "100";
-    padding-left: 25px;
 }
 
 .card div[class^="price"]:before {
     color: rgba(255, 255, 255, 0.2);
     position: absolute;
+    top: 3%;
+    left: 5%;
     text-shadow: none;
-    font-size: 110pt;
-    margin-left: -50px;
-    margin-top: -60px;
+    font-size: 115pt;
 }
 
 .substrate {
