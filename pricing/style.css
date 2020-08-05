@@ -47,7 +47,6 @@ body {
 .card div[class^="price"]:before {
     color: rgba(255, 255, 255, 0.2);
     position: absolute;
-    z-index: 0;
     text-shadow: none;
     font-size: 110pt;
     margin-left: -50px;
