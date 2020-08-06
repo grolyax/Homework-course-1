@@ -33,18 +33,18 @@ td {
     height: 150px;
     background-color: #515151;
 }
-
-.two-days-event {
-    width: calc(200% + 20px);
+.event-start {
+    margin-right: -40px;
 }
-.three-days-event {
-    width: calc(300% + 45px);
+.event-middle {
+    margin-right: -20px;
+    margin-left: -20px;
+    text-align: center;
 }
-.four-days-event {
-    width: calc(400% + 65px);
+.event-end {
+    margin-left: -20px;
 }
 .event {
-    text-align: center;
     display: block;
     margin-top: 6px;
     margin-bottom: 6px;
