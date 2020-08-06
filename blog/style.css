@@ -4,7 +4,7 @@ body {
     color: black;
 }
 
-.start {
+.header {
     position: relative;
     top: 0;
     left: 0;
@@ -12,7 +12,7 @@ body {
     text-align: center;
     margin: 0;
 }
-.start h1 {
+.header h1 {
     margin-bottom: 0;
 }
 
@@ -24,7 +24,7 @@ body {
     margin-top: -15px;
 }
 
-.block {
+.content {
     background-color: white;
     padding: 2px 10px 30px;
     margin: 0 150px;
@@ -69,7 +69,7 @@ hr {
     float: right;
 }
 
-div>img {
+.text>img {
     float: right;
     margin: 0 5px;
 }
@@ -94,11 +94,11 @@ div>img {
     margin: 10px  20px 20px 90%;
 }
 
-.last {
+.hidden-article {
     position: relative;
 }
 
-.last div[id] {
+.hidden-article div[id] {
     background-color: white;
     border: solid 1px black;
     padding: 5px 20px;
@@ -121,7 +121,7 @@ span[id] {
     display: block;
 }
 
- .last div[id]:target {
+.hidden-article div[id]:target {
     visibility: visible;
     position: relative;
     margin-top: -51px;
