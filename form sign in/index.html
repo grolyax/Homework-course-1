@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="block">
+                <div class="nav">
+                    <ul class="links">
+                        <li class="active"><a href="#">Sign in</a></li>
+                        <li><a href="#">Sign up</a></li>
+                    </ul>
+                </div>
+                <form name="loggin">
+                    <label class="form-label">Username</label> 
+                    <input type="text" name="username" class="form-input"> 
+
+                    <label class="form-label">Password</label> 
+                    <input type="password" name="password" class="form-input">
+                    <div class="keep">
+                        <div class="no-sign">
+                            <input type="radio" name="keepSignIn"> no</input>
+                        </div>
+                            <label for="keepSignIn" class="form-label">Keep me signed in</label>
+                    </div>
+                    <button type="submit" class="form-input">Sign in</button>
+
+                    <input type="hidden" class="line">
+
+                </form>
+                <p id="forgot">Forgot your password?</p>
+               
+            </div>
+        </div>
+    </body>
+</html>

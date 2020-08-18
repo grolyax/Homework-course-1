@@ -1,0 +1,119 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-top: 40px;
+}
+.block {
+    height: 575px;
+    width: 430px;
+    background: linear-gradient(rgba(35, 43, 85, 0.75), rgba(35,43, 85, 0.95));
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+.nav {
+    padding-top: 40px;
+}
+
+.links  li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.links .active a {
+    padding-bottom: 10px;
+    color: #ffffff;
+    border-bottom: solid 2px #1059ff;
+}
+
+form {
+    padding-top: 55px;
+    padding-left: 37px;
+    padding-right: 37px;
+
+}
+
+.form-input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    height: 35px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.form-input:nth-child(6) {
+    background-color: #1059ff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.form-label {
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    display: block;
+    font-weight: 400;
+}
+
+.form-input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.keep {
+    display: inline-block;
+}
+
+.form-label:last-child {
+    width: auto;
+    display: inline-block;
+}
+
+.no-sign {
+    display: block;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 60px;
+    height: auto;
+    padding: 5px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 10pt;
+    color: rgb(211, 211, 211, 0.55);
+    display: block;
+    border-top: 1px solid rgb(211, 211, 211, 0.4);
+    padding-top:  30px;
+    margin: 45px;
+    width: 80%;
+
+}
+
+
+
+
