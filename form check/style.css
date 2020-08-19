@@ -100,9 +100,8 @@ button {
 
 .image  {
     position: absolute;
-    opacity: 0.6;
+    opacity: 0.8;
     border: 0;
     border-radius: 60px;
     right: 5%;
-    top: 10%;
 }
