@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body> 
+        <h2>Room reservation</h2> 
+        <p >* required to fill</p>
+        <div class="container">
+            <form name="registr">
+                <div>
+                    <div class="block-ind">
+                                
+                        <label class="form-label">Name<sup>*</sup></label>
+                        <input type="text" id="name"  size="20" required/>   
+
+                        <label class="form-label">Surname<sup>*</sup></label>
+                        <input type="text" id="Surname"  size="20" required/>
+                       
+                        <label class="form-label">Gender</label>
+                        <input list="gender">
+                                <datalist id="gender">
+                                    <option value="male">
+                                    <option value="female">
+                                </datalist>
+
+                        <label class="form-label">Date of birth</label>
+                        <input type="date">
+
+                        <label class="form-label">E-mail<sup>*</sup></label>
+                        <input type="email" id="e-mail" required/>
+                        
+                        <label class="form-label">Telefon<sup>*</sup></label>
+                        <input type="tel" id="telefon" required>
+                    </div>
+
+                    <div class="block-gen">  
+
+                        <div class="guest">
+                            <legend  class="form-label">Guests<sup>*</sup></legend>
+                            <label for="adult">Adult</label>
+                            <input type="number" name="adult" min="1" max=4 required>
+
+                            <label for="child">Child</label>
+                            <input type="number" name="child" min="0" max=5 required>
+                        </div> 
+                        <div>
+                            <label for="check-in"  class="form-label">Check-in date<sup>*</sup></label>
+                            <input type="datetime-local" name="check-in" required/>
+                        </div>
+                        <div>
+                            <label for="check-out"  class="form-label">Check-out date</label>
+                            <input type="datetime-local" name="check-out">
+                        </div>
+                        
+                
+                        <div>
+                            <legend  class="form-label">Non-smoking room</legend>
+                            <label for="non-smoking">Yes</label>
+                            <input type="radio" name="non-smoking"/>
+                            <label for="smoking">No</label>
+                            <input type="radio" name="smoking"/>
+                        </div>
+                
+                                <legend  class="form-label">Rooms</legend>
+                                <div class="room">
+                                    <label for="one-room">Only family room</label>
+                                    <input type="radio" name="one-room"/>
+                                    <div>
+                                        <label for="smoking">Maybe any rooms</label>
+                                        <input type="radio" name="any-rooms"/>
+
+                                        <input list="rooms" placeholder="number" size="8">
+                                            <datalist id="rooms">
+                                                <option value="2">
+                                                <option value="3">
+                                                <option value="4">
+                                                <option value="5">
+                                                <option value="6">
+                                            </datalist>
+                                    </div>
+                                </div>
+                    </div>
+                       
+                </div>
+                <div class="block-last">
+                        <label for="comment" class="form-label">Comment</label>
+                        <input type="text" name="comment" 
+                        placeholder="Special wishes"
+                        size="100"/>
+                   
+                        <button type="reset">Reset</button>
+                        <button type="button">Submit</button>
+                    
+                </div>
+               
+            </form>
+        </div>
+</body> 
+</html>
+            

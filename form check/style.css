@@ -1,0 +1,92 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(4, 27, 27, 0.65);
+    background-image: url(https://mota.ru/upload/wallpapers/source/2012/07/25/11/02/31776/mota_ru_2072512.jpg);
+    background-size: 100%;
+}
+h2 {
+    color: rgb(212, 226, 172);
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.7);
+    padding-left: 45px;
+}
+
+p {
+    color: rgb(182, 12, 12);
+    padding-left: 45px;
+    font-style: italic;
+   
+}
+
+.container {
+   
+    border: 1px solid rgba(6, 54, 50, 0.3);
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px 0;
+    background: linear-gradient(rgba(5, 53, 59, 0.55),rgba(5, 53, 59, 0.75), rgba(5,53, 59, 0.95));
+    padding: 45px;
+    margin: 25px 45px;
+    position: relative;
+    display: inline-block;
+    
+}
+div[class|=block] {
+   
+    background: linear-gradient(rgba(235, 245, 170, 0.55),rgba(235, 245, 170, 0.75), rgba(235, 245, 170, 0.95));
+    padding: 25px 10px 10px 30px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+}
+.block-ind {
+    width: 300px;
+    height: 265px;
+}
+
+.block-gen {
+    width: 500px;
+    height: 265px;
+}
+
+.form-label {
+    color: rgba(4, 27, 27);
+    text-shadow: 0.5px 0.5px 2px  rgba(92, 163, 163, 0.8);
+    font-weight: 400;
+    display: flex;
+}
+
+.room {
+    display: block;
+    text-align: left;
+    padding-left: 30%;
+}
+
+.block-last {
+    width: 840px;
+    height: 50px;
+    margin-top: 2px;
+}
+input[list|=rooms] {
+    font-size: 8pt;
+    padding-right: 0;
+
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid rgba(61, 107, 61, 0.6);
+    padding-left: 5px;
+    color: rgba(100, 7, 20, 0.8);
+    text-align: right;
+}
+input:hover {
+    background-color: rgb(238, 228, 203);
+}
+sup {
+    color: darkred;
+}
+button {
+    border-radius: 5px;
+    background-color: rgba(5, 53, 59, 0.55);
+    color: rgb(226, 226, 172);
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.7);
+}
