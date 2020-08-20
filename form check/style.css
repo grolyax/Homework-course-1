@@ -80,7 +80,6 @@ input {
     border: 1px solid rgba(61, 107, 61, 0.6);
     padding-left: 5px;
     color: rgba(100, 7, 20, 0.8);
-    text-align: right;
 }
 input:hover {
     background-color: rgb(238, 228, 203);
