@@ -61,7 +61,7 @@ div[class|=block] {
 }
 
 .room {
-    display: ;
+    display: block;
     text-align: left;
     padding-left: 30%;
     color: rgb(89, 117, 99);
@@ -92,6 +92,10 @@ input {
 input:hover {
     background-color: rgb(238, 228, 203);
 }
+input:focus {
+    outline-color: rgba(89, 117, 99, 0.5);
+}
+
 sup {
     color: darkred;
 }
