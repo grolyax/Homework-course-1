@@ -42,13 +42,11 @@ div[class|=block] {
 .block-ind {
     width: 300px;
     height: 265px;
-
 }
 
 .block-gen {
     width: 500px;
     height: 265px;
-
 }
 
 .form-label {
@@ -56,12 +54,19 @@ div[class|=block] {
     text-shadow: 0.5px 0.5px 2px  rgba(92, 163, 163, 0.8);
     font-weight: 400;
     display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-right: 15px;
+
 }
 
 .room {
     display: block;
     text-align: left;
     padding-left: 30%;
+    color: rgb(89, 117, 99);
+    text-shadow: none;
+
 }
 
 .block-last {
@@ -80,6 +85,8 @@ input {
     border: 1px solid rgba(61, 107, 61, 0.6);
     padding-left: 5px;
     color: rgba(100, 7, 20, 0.8);
+    margin-left: 10px;
+    height: 20px;
 }
 input:hover {
     background-color: rgb(238, 228, 203);
@@ -92,9 +99,11 @@ button {
     background-color: rgba(5, 53, 59, 0.55);
     color: rgb(226, 226, 172);
     text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.7);
+    width: 70px;
 }
 .style {
     display: flex;
+
 }
 
 .image  {
@@ -102,5 +111,12 @@ button {
     opacity: 0.8;
     border: 0;
     border-radius: 60px;
-    right: 5%;
+bottom: 30%;
+left: 45%;
+    height: 18%;
+}
+
+.text {
+    color: rgb(89, 117, 99);
+    text-shadow: none;
 }

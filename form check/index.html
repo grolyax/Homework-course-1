@@ -12,61 +12,72 @@
             <form name="registr">
                 <div class="style">
                     <div class="block-ind">
-                                
-                        <label class="form-label">Name<sup>*</sup></label>
+                        <div  class="form-label">       
+                        <label>Name<sup>*</sup></label>
                         <input type="text" id="name"  size="20" required/>   
-
-                        <label class="form-label">Surname<sup>*</sup></label>
+                        </div> 
+                        <div  class="form-label">
+                        <label>Surname<sup>*</sup></label>
                         <input type="text" id="Surname"  size="20" required/>
-                       
-                        <label class="form-label">Gender</label>
+                        </div>
+                        <div  class="form-label">
+                        <label>Gender</label>
                         <input list="gender">
                                 <datalist id="gender">
                                     <option value="male">
                                     <option value="female">
                                 </datalist>
-
-                        <label class="form-label">Date of birth</label>
+                        </div>
+                        <div  class="form-label">
+                        <label>Date of birth</label>
                         <input type="date">
-
-                        <label class="form-label">E-mail<sup>*</sup></label>
+                        </div>
+                        <div  class="form-label">
+                        <label>E-mail<sup>*</sup></label>
                         <input type="email" id="e-mail" required/>
-                        
-                        <label class="form-label">Telefon<sup>*</sup></label>
+                        </div>
+                        <div  class="form-label">
+                        <label>Telefon<sup>*</sup></label>
                         <input type="tel" id="telefon" required>
+                        </div>
                     </div>
 
                     <div class="block-gen">  
 
-                        <div class="guest">
-                            <legend  class="form-label">Guests<sup>*</sup></legend>
-                            <label for="adult">Adult</label>
+                        <div class="form-label">
+                            <legend>Guests<sup>*</sup></legend>
+                            <div>
+                            <label for="adult" class="text">Adult</label>
                             <input type="number" name="adult" min="1" max=4 required>
 
-                            <label for="child">Child</label>
+                            <label for="child" class="text">Child</label>
                             <input type="number" name="child" min="0" max=5 required>
+                            </div>
                         </div> 
-                        <div>
-                            <label for="check-in"  class="form-label">Check-in date<sup>*</sup></label>
+                        <div class="form-label">
+                            <label for="check-in">Check-in date<sup>*</sup></label>
                             <input type="datetime-local" name="check-in" required/>
                         </div>
-                        <div>
-                            <label for="check-out"  class="form-label">Check-out date</label>
+                        <div class="form-label">
+                            <label for="check-out">Check-out date</label>
                             <input type="datetime-local" name="check-out">
                         </div>
                         
                 
-                        <div>
-                            <legend  class="form-label">Non-smoking room</legend>
-                            <label for="non-smoking">Yes</label>
+                        <div class="form-label">
+                            <legend>Non-smoking room</legend>
+                            <div>
+                            <label for="non-smoking" class="text">Yes</label>
                             <input type="radio" name="non-smoking"/>
-                            <label for="smoking">No</label>
+                            <label for="smoking" class="text">No</label>
                             <input type="radio" name="smoking"/>
+                            </div>
                         </div>
                 
-                                <legend  class="form-label">Rooms</legend>
+                        <div class="form-label">
+                                <legend>Rooms</legend>
                                 <div class="room">
-                                    <input type="image" name="vector" src="pngegg.png" class="image">
+                                    
                                     <label for="one-room">Only family room</label>
                                     <input type="radio" name="one-room"/>
                                     <div>
@@ -82,15 +93,20 @@
                                                 <option value="6">
                                             </datalist>
                                     </div>
+                                    
                                 </div>
+                                
+                            </div>
+                            <img src="pngegg.png" class="image">
                     </div>
                        
                 </div>
-                <div class="block-last">
-                        <label for="comment" class="form-label">Comment</label>
+                <div class="block-last form-label">
+
+                        <label for="comment">Comment</label>
                         <input type="text" name="comment" 
                         placeholder="Special wishes"
-                        size="100"/>
+                        size="80"/>
                    
                         <button type="reset">Reset</button>
                         <button type="button">Submit</button>
