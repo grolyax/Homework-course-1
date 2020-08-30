@@ -61,11 +61,12 @@ div[class|=block] {
 }
 
 .room {
-    display: block;
+    display: ;
     text-align: left;
     padding-left: 30%;
     color: rgb(89, 117, 99);
     text-shadow: none;
+
 
 }
 
@@ -119,4 +120,9 @@ left: 45%;
 .text {
     color: rgb(89, 117, 99);
     text-shadow: none;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
 }
