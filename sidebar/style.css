@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.aside__list li a p {
+    margin: 0;
+}
+
+aside {
+    flex-basis: 20%;
+    background-color: #33383e;
+    height: 100vh;
+    position: fixed;
+    width: 20%;
+}
+
+.aside__header {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.picsum.photos/id/990/300/200.jpg?hmac=lCrVemUNhVSY-C5jArapB_MfWjU3WDmJHIT9h6uDxmk);
+    background-size: cover;
+}
+
+.aside__header img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.aside__header p {
+    color: white;
+    font-size: 18px;
+}
+
+.aside__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aside__list li {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.05);
+    transition: background-color 0.2s;
+}
+
+.aside__list li:hover {
+    background-color: #2f89fc;
+}
+
+.aside__list li:hover a {
+    color: white
+}
+
+.aside__list li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #aeafb3;
+}
+
+.aside__list li a.active {
+    color: white;
+}
+
+.active {
+    display: flex;
+}
+
+.aside__icon {
+    padding-right: 20px;
+}
+
+main {
+    background-color: grey;
+    height: 1000px;
+    flex-grow: 1;
+    margin-left: 20%
+}
+
+@media (max-width: 950px) {
+    .aside__list  {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 56px;
+    }
+
+    aside {
+        width: 56px;
+        min-width: 56px;
+    }
+
+    aside .aside__header p {
+        display: none;
+    }
+
+    .aside__header {
+        padding-bottom: 20px;
+    }
+
+    main {
+        margin-left: 56px;
+    }
+    
+    .aside__list li a {
+        display: flex;
+    }
+    .aside__list li a p {
+        display: none;
+    }
+
+    .aside__header img {
+        width: 50px;
+        height: 50px;
+        margin: 0;
+    }
+}
